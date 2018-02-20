@@ -1,0 +1,9 @@
+name: JurassicHeads
+description: Reward players for decapitating other players!
+version: 1.0
+author: DiscoverSquishy
+main: me.discoversquishy.jurrasicheads.JurassicHeads
+commands:
+  headreload:
+    description: Reload the config file
+    aliases: [hr]

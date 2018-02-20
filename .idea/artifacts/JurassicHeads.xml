@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JurassicHeads">
+    <output-path>$USER_HOME$/Desktop/SpigotPlugins</output-path>
+    <root id="archive" name="JurassicHeads.jar">
+      <element id="module-output" name="JurassicHeads" />
+    </root>
+  </artifact>
+</component>

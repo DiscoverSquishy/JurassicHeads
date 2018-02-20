@@ -1,0 +1,29 @@
+#Should the plugin add a prefix before every message?
+Use-Prefix: true
+
+#What should heads look like?
+Head-Name: "&c&l%player%'s Head"
+Head-Lore:
+  - "&7&l&m--------------------"
+  - '&cTake to spawn to claim a reward!'
+  - "&7&l&m--------------------"
+
+#How many rewards should a player get?
+Min-Rewards: 1
+Max-Rewards: 3
+
+#Should heads be removed when claiming a reward?
+Remove-Heads: false
+
+#What rewards can a player get?
+Rewards:
+  - "give %player% diamond 10"
+  - "eco give %player% 2500"
+
+Messages:
+  Config-Reloaded: "Configuration files reloaded! (&c%time%ms&7)"
+  Decapitated: "You have been decapitated by %player%!"
+  Head-Dropped: "You have decapitated %player%!"
+  Missing-Perm: "You don't have permission to do this!"
+  Prefix: "&c&lJurassicHeads &8&l> &7"
+  Reward-Claimed: "Reward claimed!"
